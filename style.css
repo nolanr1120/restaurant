@@ -1,0 +1,50 @@
+*{border: 1px }
+ 
+ .main{
+   background: lightblue;
+   width:80%;
+  margin: 0 auto; /* center */
+ }
+ 
+ .nav{
+   display:flex;
+   justify-content:space-around;
+   position: sticky;
+   background-color: lightblue;
+   top:0;
+   
+   
+ }
+ 
+ .img-uno{
+   width:100%;
+ }
+
+.product{
+  width: 30%
+}
+
+.productIMG{
+  width: 100%
+  
+}
+
+.items{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+p{
+  font-size: 2vw
+}
+
+@media screen and (max-width: 500px) {
+  div{flex-direction: column; 
+  margin: 0 auto;}
+  .nav{flex-direction: column;
+  text-align: center;
+  }
+  
+}
+
